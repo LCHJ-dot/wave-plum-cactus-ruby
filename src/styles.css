@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #1c1712;
+  --color-paper: #f4efe6;
+  --color-paper-2: #e7dfd2;
+  --color-bronze: #8d6439;
+  --color-fog: #8a8175;
+  --color-line: #d9d0c3;
+  --color-sky: #d7e0e8;
+  --font-display: "Noto Serif SC", "Songti SC", "WenQuanYi Zen Hei", serif;
+  --font-sans: "Outfit", "PingFang SC", "Microsoft YaHei", "WenQuanYi Zen Hei", sans-serif;
+}
+
+@layer base {
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;
+    background: var(--color-sky);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@layer components {
+  .btn {
+    display: inline-flex;
+    height: 2.75rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 999px;
+    background: var(--color-ink);
+    padding-inline: 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-paper);
+  }
+
+  .btn-ghost {
+    display: inline-flex;
+    height: 2.75rem;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 999px;
+    border: 1px solid var(--color-line);
+    background: var(--color-paper);
+    padding-inline: 1rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--color-ink);
+  }
+}
