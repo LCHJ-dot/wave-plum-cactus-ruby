@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "月下摘桂",
+      "hasCanvas": true,
+      "bodyTextLen": 109,
+      "bodyTextHash": "066eefc1cbcbb6d4722199910ed9674900f04ec2992c233d36057faf3f6a04d3",
+      "bodyTextPrefix": "月下摘桂 桂 月下摘桂 中秋夜，替月兔接住飘落的桂花 桂花 月饼 墨云 左右移动接住桂花、月饼和星光。墨云会弄脏花篮。月华槽满后",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "月下摘桂",
+      "hasCanvas": true,
+      "bodyTextLen": 109,
+      "bodyTextHash": "066eefc1cbcbb6d4722199910ed9674900f04ec2992c233d36057faf3f6a04d3",
+      "bodyTextPrefix": "月下摘桂 桂 月下摘桂 中秋夜，替月兔接住飘落的桂花 桂花 月饼 墨云 左右移动接住桂花、月饼和星光。墨云会弄脏花篮。月华槽满后",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

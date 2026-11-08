@@ -1,9 +1,9 @@
 import { i as __toESM, n as __exportAll } from "../_runtime.mjs";
-import { G as require_jsx_runtime, K as require_react, _ as createFileRoute, d as Scripts, f as HeadContent, g as lazyRouteComponent, h as Outlet, m as createRouter, v as createRootRoute, y as useRouter } from "../_libs/@tanstack/react-router+[...].mjs";
-import { t as TriangleAlert } from "../_libs/lucide-react.mjs";
+import { K as require_react, _ as createFileRoute, b as require_jsx_runtime, d as Scripts, f as HeadContent, g as lazyRouteComponent, h as Outlet, m as createRouter, v as createRootRoute, y as useRouter } from "../_libs/@tanstack/react-router+[...].mjs";
+import { r as TriangleAlert } from "../_libs/lucide-react.mjs";
 import { a as union, i as string, n as number, r as object, t as literal } from "../_libs/zod.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-CgyvBcO6.js
-var router_CgyvBcO6_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
+//#region node_modules/.nitro/vite/services/ssr/assets/router-BMCZF1g8.js
+var router_BMCZF1g8_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var FALLBACK_MESSAGE = "An unexpected error occurred. Try reloading the page.";
@@ -331,7 +331,7 @@ function PreviewHostBridge() {
 	}, [router]);
 	return null;
 }
-var styles_default = "/assets/styles-DBuC_SgT.css";
+var styles_default = "/assets/styles-Ccw4eZpk.css";
 var Route$1 = createRootRoute({
 	head: () => ({
 		meta: [
@@ -340,14 +340,14 @@ var Route$1 = createRootRoute({
 				name: "viewport",
 				content: "width=device-width, initial-scale=1, viewport-fit=cover"
 			},
-			{ title: "圆厅" },
+			{ title: "月下摘桂" },
 			{
 				name: "description",
-				content: "直径 26.9 米的圆形文化展馆，层高 4.2 米，可漫游。"
+				content: "中秋小游戏。左右移动月兔，接住桂花和月饼，躲开墨云。"
 			},
 			{
 				name: "theme-color",
-				content: "#1c1712"
+				content: "#0e1528"
 			}
 		],
 		links: [
@@ -362,7 +362,7 @@ var Route$1 = createRootRoute({
 			},
 			{
 				rel: "stylesheet",
-				href: "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;700&family=Outfit:wght@400;500;600&display=swap"
+				href: "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700&display=swap"
 			},
 			{
 				rel: "manifest",
@@ -384,7 +384,7 @@ var Route$1 = createRootRoute({
 		] })]
 	})
 });
-var $$splitComponentImporter = () => import("./routes-KyzVS7W9.mjs").then((n) => n.t);
+var $$splitComponentImporter = () => import("./routes-vaSzi1PB.mjs");
 var rootRouteChildren = { IndexRoute: createFileRoute("/")({ component: lazyRouteComponent($$splitComponentImporter, "component") }).update({
 	id: "/",
 	path: "/",
@@ -399,4 +399,4 @@ function getRouter() {
 	});
 }
 //#endregion
-export { getRouter, router_CgyvBcO6_exports as t };
+export { getRouter, router_BMCZF1g8_exports as t };

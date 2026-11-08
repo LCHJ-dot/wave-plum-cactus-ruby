@@ -12,7 +12,7 @@ var install_page_default = "<!DOCTYPE html>\n<html lang=\"en\" class=\"device-de
 //#endregion
 //#region \0virtual:grok-og-identity
 var grokOgIdentity = { "site": {
-	"title": "圆厅",
+	"title": "月下摘桂",
 	"type": "x:game",
 	"card": "custom",
 	"image": "/og.jpg",
